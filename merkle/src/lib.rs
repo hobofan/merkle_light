@@ -163,9 +163,13 @@ mod hash_impl;
 
 /// Merkle tree inclusion proof
 pub mod proof;
+/// Merkle tree inclusion proof. Modified for Solidity implementation compatibility
+pub mod proof2;
 
 /// Merkle tree abstractions, implementation and algorithms.
 pub mod merkle;
+/// Merkle tree abstractions, implementation and algorithms. Modified for Solidity implementation compatibility
+pub mod merkle2;
 
 /// Tests data.
 #[cfg(test)]
